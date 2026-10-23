@@ -70,7 +70,7 @@
 
   <script>
     // Fetch menu.json and render items onto the screen
-    fetch('menu.json')
+   fetch('menu.json?t=' + new Date().getTime())
       .then(response => response.json())
       .then(data => {
         document.getElementById('restaurant-name').textContent = data.restaurantName;
