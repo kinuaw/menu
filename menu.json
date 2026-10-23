@@ -1,0 +1,39 @@
+{
+  "restaurantName": "The Daily Bistro",
+  "categories": [
+    {
+      "name": "Starters & Appetizers",
+      "items": [
+        {
+          "name": "Truffle Fries",
+          "description": "Crispy golden fries tossed in truffle oil and freshly grated parmesan.",
+          "price": "$8.50",
+          "available": true
+        },
+        {
+          "name": "Garlic Bread",
+          "description": "Toasted sourdough brushed with garlic herb butter.",
+          "price": "$6.00",
+          "available": true
+        }
+      ]
+    },
+    {
+      "name": "Mains",
+      "items": [
+        {
+          "name": "Classic Cheeseburger",
+          "description": "Angus beef patty, cheddar, house sauce, brioche bun. Served with fries.",
+          "price": "$14.00",
+          "available": true
+        },
+        {
+          "name": "Grilled Salmon",
+          "description": "Pan-seared Atlantic salmon served over lemon asparagus risotto.",
+          "price": "$22.00",
+          "available": false
+        }
+      ]
+    }
+  ]
+}
